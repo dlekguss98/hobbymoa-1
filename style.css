@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url('https://fonts.googleapis.com/css?family=Jua&display=swap');
+
+
+
+body {
+  font: 24px/1.5 'Jua',Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:auto;
+  background-color: #ffffff
+
+}
+
+/* Global=모든 목록에 적용하겠다! */
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+
+ ul{
+   margin:0;
+   padding:0;
+ }
+
+button {
+  height:60px;
+  width:120px;
+
+  background:#000000;
+  border:0;
+  padding-left:10px;
+  padding-right:10px;
+  color:#ffffff;
+  font-family: 'Hanna';
+  font-size: 18px;
+
+}
+
+/* Header */
+
+  header{
+    background:#ffffff;
+    color:#000000;
+    padding-top: 20px;
+    min-height:70px;
+    border-bottom:#000000 4px solid;
+
+  }
+
+header a{
+  color:#000000;
+  text-decoration: :none;
+   text-transform:uppercase;
+  font-size:16px
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav{
+  float:right;
+  margin-top:10px
+
+}
+
+header .highlight, header .current a{
+  color:#8f71ff;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:lighter;
+}
+
+
+/* Showcase */
+
+
+#showcase{
+  min-height: 400px;
+}
+
+
+
+#showcase .start_button{
+  position:absolute;
+  padding-top:320px;
+
+}
+#showcase h1{
+  margin-top:100px;
+  font-size:40px;
+  margin-bottom:10px;
+  color:#000000;
+  float:left;
+}
+
+@keyframes mysecond {
+
+       0%  {left:-200px; top: 0px;}
+
+       65% {left:120px; top: 0px;}
+
+       75% {left:150px; top:-80px;}
+
+       80% {left: 150px; top:0px;}
+
+       100% {left:230px; top:0px;}
+
+}
+
+/*boxes*/
+
+#boxes {
+  margin-top:120px;
+  margin-bottom: 200px;
+
+}
+
+#boxes img:hover {
+  transform: scale(1.5 , 1.5);
+}
+#boxes .box{
+  float: left;
+  text-align: center;
+  width:30%;
+  padding:40px 5px 20px 5px;
+  border-style: solid;
+  border-width: thick;
+  border-color: #000000;
+  margin-right:10px;
+}
+
+#boxes .box img{
+  width:120px;
+
+}
+
+#boxes p {
+  font-size: 20px;
+  font-family:'hanna',serif;
+  color:#000000;
+}
+#boxes h3{
+  color:#000000;
+}
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#a08bf6;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 8px;
+}
+
